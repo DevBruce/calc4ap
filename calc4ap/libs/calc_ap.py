@@ -26,8 +26,7 @@ class CalcAP:
             self.f1_score = 0.0
         else:
             self.f1_score = 2 * (self.precision * self.recall) / (self.precision + self.recall)
-
-
+        
         voc_ap_data = self._get_voc_ap()
         self.AP = voc_ap_data['AP']
         self.precisions['interpolated'] = voc_ap_data['interpolated_precisions']
