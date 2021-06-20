@@ -13,7 +13,7 @@ setup(
     long_description=open(README_PATH, encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     license='MIT',
-    version='1.0',
+    version='1.0.0',
     url='https://github.com/DevBruce/calc4ap',
     packages=['calc4ap'],
     package_data={
