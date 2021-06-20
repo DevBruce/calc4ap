@@ -4,6 +4,14 @@
 
 <br><br>
 
+## Install via PyPI
+
+```bash
+$ pip install calc4ap
+```
+
+<br><br>
+
 ## How to Use
 
 ```python
